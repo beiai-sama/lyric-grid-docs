@@ -1,0 +1,1088 @@
+{
+  "start-h1-1": {
+    "html": "把听见的每一个音，<br><em>稳稳放进中文里。</em>",
+    "section": "start",
+    "label": "把听见的每一个音，稳稳放进中文里。",
+    "block": false
+  },
+  "start-p-1": {
+    "html": "词格不是翻译器，也不是自动填词机器。它把原唱拆成可操作的发音格，让你听清楚、数明白，再亲手决定中文怎么落。",
+    "section": "start",
+    "label": "词格不是翻译器，也不是自动填词机器。它把原唱拆成可操作的发音格，让你听清楚、数明白，再亲手决定中",
+    "block": false
+  },
+  "start-b-1": {
+    "html": "12",
+    "section": "start",
+    "label": "12",
+    "block": false
+  },
+  "start-b-2": {
+    "html": "15",
+    "section": "start",
+    "label": "15",
+    "block": false
+  },
+  "start-b-3": {
+    "html": "本地优先",
+    "section": "start",
+    "label": "本地优先",
+    "block": false
+  },
+  "start-b-4": {
+    "html": "一个中文格，可以容纳几个实际音",
+    "section": "start",
+    "label": "一个中文格，可以容纳几个实际音",
+    "block": false
+  },
+  "start-b-5": {
+    "html": "nǐ · i 韵",
+    "section": "start",
+    "label": "nǐ · i 韵",
+    "block": false
+  },
+  "start-p-2": {
+    "html": "连读和吸收不是固定答案，要以原唱听感为准。",
+    "section": "start",
+    "label": "连读和吸收不是固定答案，要以原唱听感为准。",
+    "block": false
+  },
+  "model-b-1": {
+    "html": "导入原词",
+    "section": "model",
+    "label": "导入原词",
+    "block": false
+  },
+  "model-p-1": {
+    "html": "日文、英文或工程文件先变成实际唱法。",
+    "section": "model",
+    "label": "日文、英文或工程文件先变成实际唱法。",
+    "block": false
+  },
+  "model-b-2": {
+    "html": "校正发音格",
+    "section": "model",
+    "label": "校正发音格",
+    "block": false
+  },
+  "model-p-2": {
+    "html": "明确设置吸收、连读、长音与拆音。",
+    "section": "model",
+    "label": "明确设置吸收、连读、长音与拆音。",
+    "block": false
+  },
+  "model-b-3": {
+    "html": "填写中文",
+    "section": "model",
+    "label": "填写中文",
+    "block": false
+  },
+  "model-p-3": {
+    "html": "逐格落字，用拼音和韵脚检查唱感。",
+    "section": "model",
+    "label": "逐格落字，用拼音和韵脚检查唱感。",
+    "block": false
+  },
+  "model-p-4": {
+    "html": "词格给的是“基础建议”，不是硬性答案。<b>你听到的唱法永远高于自动规则。</b>同一组假名在不同速度、咬字和旋律里，可能需要不同处理。",
+    "section": "model",
+    "label": "词格给的是“基础建议”，不是硬性答案。你听到的唱法永远高于自动规则。同一组假名在不同速度、咬字和",
+    "block": false
+  },
+  "phoneme-h3-1": {
+    "html": "吸收一个音",
+    "section": "phoneme",
+    "label": "吸收一个音",
+    "block": false
+  },
+  "phoneme-p-1": {
+    "html": "选中 <code>n</code>、<code>q</code> 或其他不想独立占字的音，再点“吸收此音”。它会变成虚线格，但发音信息仍保留。",
+    "section": "phoneme",
+    "label": "选中 n、q 或其他不想独立占字的音，再点“吸收此音”。它会变成虚线格，但发音信息仍保留。",
+    "block": false
+  },
+  "phoneme-b-1": {
+    "html": "a",
+    "section": "phoneme",
+    "label": "a",
+    "block": false
+  },
+  "phoneme-b-2": {
+    "html": "ta",
+    "section": "phoneme",
+    "label": "ta",
+    "block": false
+  },
+  "phoneme-h3-2": {
+    "html": "连接两个音",
+    "section": "phoneme",
+    "label": "连接两个音",
+    "block": false
+  },
+  "phoneme-p-2": {
+    "html": "点两个相邻格之间的连接点，或选中后用“与前音／后音连成一格”。连接后共同对应一个中文格。",
+    "section": "phoneme",
+    "label": "点两个相邻格之间的连接点，或选中后用“与前音／后音连成一格”。连接后共同对应一个中文格。",
+    "block": false
+  },
+  "phoneme-b-3": {
+    "html": "no",
+    "section": "phoneme",
+    "label": "no",
+    "block": false
+  },
+  "phoneme-b-4": {
+    "html": "u",
+    "section": "phoneme",
+    "label": "u",
+    "block": false
+  },
+  "phoneme-h3-3": {
+    "html": "恢复与拆开",
+    "section": "phoneme",
+    "label": "恢复与拆开",
+    "block": false
+  },
+  "phoneme-p-3": {
+    "html": "选中吸收格可“恢复计字”；选中连读格可拆开。改错时直接撤销，原本的长音状态也会保留。",
+    "section": "phoneme",
+    "label": "选中吸收格可“恢复计字”；选中连读格可拆开。改错时直接撤销，原本的长音状态也会保留。",
+    "block": false
+  },
+  "phoneme-h3-4": {
+    "html": "no 和 u 连起来",
+    "section": "phoneme",
+    "label": "no 和 u 连起来",
+    "block": false
+  },
+  "phoneme-p-4": {
+    "html": "原唱里 <code>no</code> 与 <code>u</code> 如果听成一个连续落点，就把两格连接；不要把所有 <code>o + u</code> 都自动合并。",
+    "section": "phoneme",
+    "label": "原唱里 no 与 u 如果听成一个连续落点，就把两格连接；不要把所有 o + u 都自动合并。",
+    "block": false
+  },
+  "phoneme-h3-5": {
+    "html": "na + i、da + i 也可以是一格",
+    "section": "phoneme",
+    "label": "na + i、da + i 也可以是一格",
+    "block": false
+  },
+  "phoneme-p-5": {
+    "html": "<code>na + i</code>、<code>da + i</code> 是否合一，要看速度、音符边界和实际咬字。词格会提示可能性，最后由你确认。",
+    "section": "phoneme",
+    "label": "na + i、da + i 是否合一，要看速度、音符边界和实际咬字。词格会提示可能性，最后由你确",
+    "block": false
+  },
+  "chinese-b-1": {
+    "html": "12 个字 · 18 个实际音位",
+    "section": "chinese",
+    "label": "12 个字 · 18 个实际音位",
+    "block": false
+  },
+  "chinese-p-1": {
+    "html": "“我”后面的延音只是让这个字唱得更舒服，和新增发音无关。",
+    "section": "chinese",
+    "label": "“我”后面的延音只是让这个字唱得更舒服，和新增发音无关。",
+    "block": false
+  },
+  "chinese-h3-1": {
+    "html": "连续输入，也能逐格修改",
+    "section": "chinese",
+    "label": "连续输入，也能逐格修改",
+    "block": false
+  },
+  "chinese-p-2": {
+    "html": "直接粘贴一句中文会按格填入；随后可以点任意格改单字、删除格、拆格或补延音。",
+    "section": "chinese",
+    "label": "直接粘贴一句中文会按格填入；随后可以点任意格改单字、删除格、拆格或补延音。",
+    "block": false
+  },
+  "chinese-h3-2": {
+    "html": "拼音自动跟随",
+    "section": "chinese",
+    "label": "拼音自动跟随",
+    "block": false
+  },
+  "chinese-p-3": {
+    "html": "每个中文字下方显示拼音，句尾还会标出韵脚，方便检查相邻句是否押在同一组韵上。",
+    "section": "chinese",
+    "label": "每个中文字下方显示拼音，句尾还会标出韵脚，方便检查相邻句是否押在同一组韵上。",
+    "block": false
+  },
+  "chinese-h3-3": {
+    "html": "格数差异随时可见",
+    "section": "chinese",
+    "label": "格数差异随时可见",
+    "block": false
+  },
+  "chinese-p-4": {
+    "html": "顶部同时显示基础建议和当前设计。少字不一定错，但你会知道哪里用了延音、连读或吸收。",
+    "section": "chinese",
+    "label": "顶部同时显示基础建议和当前设计。少字不一定错，但你会知道哪里用了延音、连读或吸收。",
+    "block": false
+  },
+  "timeline-b-1": {
+    "html": "01:13.31",
+    "section": "timeline",
+    "label": "01:13.31",
+    "block": false
+  },
+  "timeline-p-1": {
+    "html": "一直下决心 ima ni mi te ro yo",
+    "section": "timeline",
+    "label": "一直下决心 ima ni mi te ro yo",
+    "block": false
+  },
+  "timeline-p-2": {
+    "html": "<span>cho he n shi n</span> ko no o ka shi",
+    "section": "timeline",
+    "label": "cho he n shi n ko no o ka shi",
+    "block": false
+  },
+  "timeline-p-3": {
+    "html": "se i sa i ka shi ta i de o...",
+    "section": "timeline",
+    "label": "se i sa i ka shi ta i de o...",
+    "block": false
+  },
+  "timeline-b-2": {
+    "html": "上传歌曲音频",
+    "section": "timeline",
+    "label": "上传歌曲音频",
+    "block": false
+  },
+  "timeline-p-4": {
+    "html": "选择 MP3、WAV 或浏览器能播放的音频格式。",
+    "section": "timeline",
+    "label": "选择 MP3、WAV 或浏览器能播放的音频格式。",
+    "block": false
+  },
+  "timeline-b-3": {
+    "html": "导入 LRC／SRT",
+    "section": "timeline",
+    "label": "导入 LRC／SRT",
+    "block": false
+  },
+  "timeline-p-5": {
+    "html": "字幕提供每句的时间；LRC 滚动时会有缩放、淡入与焦点过渡。",
+    "section": "timeline",
+    "label": "字幕提供每句的时间；LRC 滚动时会有缩放、淡入与焦点过渡。",
+    "block": false
+  },
+  "timeline-b-4": {
+    "html": "设置句首与句尾",
+    "section": "timeline",
+    "label": "设置句首与句尾",
+    "block": false
+  },
+  "timeline-p-6": {
+    "html": "需要反复磨一句时，用 A/B 标记锁定范围并循环播放。",
+    "section": "timeline",
+    "label": "需要反复磨一句时，用 A/B 标记锁定范围并循环播放。",
+    "block": false
+  },
+  "timeline-p-7": {
+    "html": "音频本身不知道哪一秒对应哪句歌词。需要 LRC、SRT，或从带时间的歌声工程中读取句段。",
+    "section": "timeline",
+    "label": "音频本身不知道哪一秒对应哪句歌词。需要 LRC、SRT，或从带时间的歌声工程中读取句段。",
+    "block": false
+  },
+  "blind-b-1": {
+    "html": "按下空格，记录一个 la",
+    "section": "blind",
+    "label": "按下空格，记录一个 la",
+    "block": false
+  },
+  "blind-h3-1": {
+    "html": "准备素材",
+    "section": "blind",
+    "label": "准备素材",
+    "block": false
+  },
+  "blind-p-1": {
+    "html": "先上传歌曲音频，再导入带时间的 <code>.lrc</code>。SRT、SVP 或 MIDI 时间线不会被误当成 LRC。",
+    "section": "blind",
+    "label": "先上传歌曲音频，再导入带时间的 .lrc。SRT、SVP 或 MIDI 时间线不会被误当成 LR",
+    "block": false
+  },
+  "blind-h3-2": {
+    "html": "只听，不看答案",
+    "section": "blind",
+    "label": "只听，不看答案",
+    "block": false
+  },
+  "blind-p-2": {
+    "html": "开始播放后，每听见一个适合落中文字的位置就按一次空格。每次会在当下时间写入一个 <code>la</code>。",
+    "section": "blind",
+    "label": "开始播放后，每听见一个适合落中文字的位置就按一次空格。每次会在当下时间写入一个 la。",
+    "block": false
+  },
+  "blind-h3-3": {
+    "html": "完成后再对照",
+    "section": "blind",
+    "label": "完成后再对照",
+    "block": false
+  },
+  "blind-p-3": {
+    "html": "结束打点，打开对比视图，把你的 <code>la</code> 落点与罗马音或英标排列对照。",
+    "section": "blind",
+    "label": "结束打点，打开对比视图，把你的 la 落点与罗马音或英标排列对照。",
+    "block": false
+  },
+  "blind-h3-4": {
+    "html": "修改并应用",
+    "section": "blind",
+    "label": "修改并应用",
+    "block": false
+  },
+  "blind-p-4": {
+    "html": "把自动标签改成你真正听到的发音，再应用为这一句的实际唱法。",
+    "section": "blind",
+    "label": "把自动标签改成你真正听到的发音，再应用为这一句的实际唱法。",
+    "block": false
+  },
+  "import-p-1": {
+    "html": "导入只读取副本，不会回写或覆盖你的 SVP、MIDI、VSQX、VPR 原工程。",
+    "section": "import",
+    "label": "导入只读取副本，不会回写或覆盖你的 SVP、MIDI、VSQX、VPR 原工程。",
+    "block": false
+  },
+  "import-p-2": {
+    "html": "工程里连续音符可能跨过原歌词行。导入时先按停顿、休止与时间间隔分段，之后仍可手动合并或拆句。",
+    "section": "import",
+    "label": "工程里连续音符可能跨过原歌词行。导入时先按停顿、休止与时间间隔分段，之后仍可手动合并或拆句。",
+    "block": false
+  },
+  "lab-b-1": {
+    "html": "盲听打点",
+    "section": "lab",
+    "label": "盲听打点",
+    "block": false
+  },
+  "lab-p-1": {
+    "html": "用空格键记录你实际听到的落字位置。",
+    "section": "lab",
+    "label": "用空格键记录你实际听到的落字位置。",
+    "block": false
+  },
+  "lab-b-2": {
+    "html": "音韵匹配",
+    "section": "lab",
+    "label": "音韵匹配",
+    "block": false
+  },
+  "lab-p-2": {
+    "html": "查看中文拼音与目标发音的接近程度。",
+    "section": "lab",
+    "label": "查看中文拼音与目标发音的接近程度。",
+    "block": false
+  },
+  "lab-b-3": {
+    "html": "韵脚地图",
+    "section": "lab",
+    "label": "韵脚地图",
+    "block": false
+  },
+  "lab-p-3": {
+    "html": "把全曲句尾按韵母分组，快速找出跑韵。",
+    "section": "lab",
+    "label": "把全曲句尾按韵母分组，快速找出跑韵。",
+    "block": false
+  },
+  "lab-b-4": {
+    "html": "导出自检",
+    "section": "lab",
+    "label": "导出自检",
+    "block": false
+  },
+  "lab-p-4": {
+    "html": "导出前检查空格、超格与未确认的连接。",
+    "section": "lab",
+    "label": "导出前检查空格、超格与未确认的连接。",
+    "block": false
+  },
+  "lab-b-5": {
+    "html": "敬请期待",
+    "section": "lab",
+    "label": "敬请期待",
+    "block": false
+  },
+  "lab-p-5": {
+    "html": "这里正在装修下一批真正有用的工具。",
+    "section": "lab",
+    "label": "这里正在装修下一批真正有用的工具。",
+    "block": false
+  },
+  "lab-b-6": {
+    "html": "LOCKED",
+    "section": "lab",
+    "label": "LOCKED",
+    "block": false
+  },
+  "ai-h3-1": {
+    "html": "禁止直接使用 AI 生成歌词",
+    "section": "ai",
+    "label": "禁止直接使用 AI 生成歌词",
+    "block": false
+  },
+  "ai-p-1": {
+    "html": "首次进入 AI 参谋，必须输入“我不会使用AI生成歌词”才能解锁。这个确认只提醒创作边界，不会把密钥或歌词上传给词格服务器。",
+    "section": "ai",
+    "label": "首次进入 AI 参谋，必须输入“我不会使用AI生成歌词”才能解锁。这个确认只提醒创作边界，不会把",
+    "block": false
+  },
+  "ai-li-1": {
+    "html": "逐句翻译与语法解释",
+    "section": "ai",
+    "label": "逐句翻译与语法解释",
+    "block": false
+  },
+  "ai-li-2": {
+    "html": "音乐背景、意象和隐喻资料",
+    "section": "ai",
+    "label": "音乐背景、意象和隐喻资料",
+    "block": false
+  },
+  "ai-li-3": {
+    "html": "某个韵母可用的中文词",
+    "section": "ai",
+    "label": "某个韵母可用的中文词",
+    "block": false
+  },
+  "ai-li-4": {
+    "html": "发音、连读和语气建议",
+    "section": "ai",
+    "label": "发音、连读和语气建议",
+    "block": false
+  },
+  "ai-li-5": {
+    "html": "生成整句中文填词",
+    "section": "ai",
+    "label": "生成整句中文填词",
+    "block": false
+  },
+  "ai-li-6": {
+    "html": "代写副歌或整首歌词",
+    "section": "ai",
+    "label": "代写副歌或整首歌词",
+    "block": false
+  },
+  "ai-li-7": {
+    "html": "绕过字数限制自动灌词",
+    "section": "ai",
+    "label": "绕过字数限制自动灌词",
+    "block": false
+  },
+  "ai-li-8": {
+    "html": "把模型输出冒充原创",
+    "section": "ai",
+    "label": "把模型输出冒充原创",
+    "block": false
+  },
+  "ai-b-1": {
+    "html": "选择 GLM 兼容接口",
+    "section": "ai",
+    "label": "选择 GLM 兼容接口",
+    "block": false
+  },
+  "ai-p-2": {
+    "html": "使用你自己的服务地址与模型名。",
+    "section": "ai",
+    "label": "使用你自己的服务地址与模型名。",
+    "block": false
+  },
+  "ai-b-2": {
+    "html": "填写自己的 API Key",
+    "section": "ai",
+    "label": "填写自己的 API Key",
+    "block": false
+  },
+  "ai-p-3": {
+    "html": "密钥仅保存在当前设备的浏览器中。",
+    "section": "ai",
+    "label": "密钥仅保存在当前设备的浏览器中。",
+    "block": false
+  },
+  "ai-b-3": {
+    "html": "通过创作承诺",
+    "section": "ai",
+    "label": "通过创作承诺",
+    "block": false
+  },
+  "ai-p-4": {
+    "html": "解锁后仍只开放辅助型提问。",
+    "section": "ai",
+    "label": "解锁后仍只开放辅助型提问。",
+    "block": false
+  },
+  "appearance-b-1": {
+    "html": "心",
+    "section": "appearance",
+    "label": "心",
+    "block": false
+  },
+  "appearance-b-2": {
+    "html": "自定义主色",
+    "section": "appearance",
+    "label": "自定义主色",
+    "block": false
+  },
+  "appearance-p-1": {
+    "html": "强调色会同步用于选中格、播放器和提示，不改变信息层级。",
+    "section": "appearance",
+    "label": "强调色会同步用于选中格、播放器和提示，不改变信息层级。",
+    "block": false
+  },
+  "appearance-b-3": {
+    "html": "背景与遮罩",
+    "section": "appearance",
+    "label": "背景与遮罩",
+    "block": false
+  },
+  "appearance-p-2": {
+    "html": "上传图片后可调暗度、模糊和饱和度，保证文字始终清晰。",
+    "section": "appearance",
+    "label": "上传图片后可调暗度、模糊和饱和度，保证文字始终清晰。",
+    "block": false
+  },
+  "appearance-b-4": {
+    "html": "液态玻璃",
+    "section": "appearance",
+    "label": "液态玻璃",
+    "block": false
+  },
+  "appearance-p-3": {
+    "html": "提高面板透明感与背景折射；看不清时降低透明度即可。",
+    "section": "appearance",
+    "label": "提高面板透明感与背景折射；看不清时降低透明度即可。",
+    "block": false
+  },
+  "appearance-b-5": {
+    "html": "工程自动保存到浏览器",
+    "section": "appearance",
+    "label": "工程自动保存到浏览器",
+    "block": false
+  },
+  "appearance-p-4": {
+    "html": "换设备或清理浏览器数据前，请先导出 JSON 备份。",
+    "section": "appearance",
+    "label": "换设备或清理浏览器数据前，请先导出 JSON 备份。",
+    "block": false
+  },
+  "appearance-b-6": {
+    "html": "音频不进入工程文件",
+    "section": "appearance",
+    "label": "音频不进入工程文件",
+    "block": false
+  },
+  "appearance-p-5": {
+    "html": "重新打开工程后，需要重新选择本地歌曲音频。",
+    "section": "appearance",
+    "label": "重新打开工程后，需要重新选择本地歌曲音频。",
+    "block": false
+  },
+  "appearance-b-7": {
+    "html": "AI 密钥由用户配置",
+    "section": "appearance",
+    "label": "AI 密钥由用户配置",
+    "block": false
+  },
+  "appearance-p-6": {
+    "html": "词格不提供公共密钥，也不会代你购买模型服务。",
+    "section": "appearance",
+    "label": "词格不提供公共密钥，也不会代你购买模型服务。",
+    "block": false
+  },
+  "shortcuts-p-1": {
+    "html": "恢复最近一次填字、吸收、连接或拆分",
+    "section": "shortcuts",
+    "label": "恢复最近一次填字、吸收、连接或拆分",
+    "block": false
+  },
+  "shortcuts-p-2": {
+    "html": "在中文逐格编辑时切换焦点",
+    "section": "shortcuts",
+    "label": "在中文逐格编辑时切换焦点",
+    "block": false
+  },
+  "shortcuts-p-3": {
+    "html": "在当前播放时间写入一个 la",
+    "section": "shortcuts",
+    "label": "在当前播放时间写入一个 la",
+    "block": false
+  },
+  "shortcuts-p-4": {
+    "html": "只在盲听打点会话中生效",
+    "section": "shortcuts",
+    "label": "只在盲听打点会话中生效",
+    "block": false
+  },
+  "shortcuts-p-5": {
+    "html": "从任何位置快速跳到对应章节",
+    "section": "shortcuts",
+    "label": "从任何位置快速跳到对应章节",
+    "block": false
+  },
+  "shortcuts-p-6": {
+    "html": "退出搜索或当前临时面板",
+    "section": "shortcuts",
+    "label": "退出搜索或当前临时面板",
+    "block": false
+  },
+  "faq-p-1": {
+    "html": "自动建议依据文字读音与常见规则，不知道歌手在这一处怎样吞音、滑音或故意拆字。选中对应发音格，用吸收、连接或拆分把它改成你的听感。",
+    "section": "faq",
+    "label": "自动建议依据文字读音与常见规则，不知道歌手在这一处怎样吞音、滑音或故意拆字。选中对应发音格，用吸",
+    "block": false
+  },
+  "faq-p-2": {
+    "html": "有些工程只有连续音符，没有明确歌词行边界。词格会参考休止、音符间隔和歌词符号分句；导入界面可调整分句灵敏度，进工程后也能继续拆句或合句。",
+    "section": "faq",
+    "label": "有些工程只有连续音符，没有明确歌词行边界。词格会参考休止、音符间隔和歌词符号分句；导入界面可调整",
+    "block": false
+  },
+  "faq-p-3": {
+    "html": "MIDI 可能只有音高和时值。先选择真正的人声旋律轨；如果文件本身没有 lyric 事件，词格会保留节奏格，歌词需要另行导入或填写。",
+    "section": "faq",
+    "label": "MIDI 可能只有音高和时值。先选择真正的人声旋律轨；如果文件本身没有 lyric 事件，词格会",
+    "block": false
+  },
+  "faq-p-4": {
+    "html": "确认导入的是带时间标签的 .lrc，并且音频从同一版本歌曲开始。若整体固定偏移，可调整字幕偏移量；若每句越走越偏，通常是音频版本或速度不同。",
+    "section": "faq",
+    "label": "确认导入的是带时间标签的 .lrc，并且音频从同一版本歌曲开始。若整体固定偏移，可调整字幕偏移量",
+    "block": false
+  },
+  "faq-p-5": {
+    "html": "延音表示继续唱前一个中文字，它占用旋律时间，但不是新的汉字或发音，所以当前设计字数不会增加。",
+    "section": "faq",
+    "label": "延音表示继续唱前一个中文字，它占用旋律时间，但不是新的汉字或发音，所以当前设计字数不会增加。",
+    "block": false
+  },
+  "faq-p-6": {
+    "html": "自动保存默认只在当前浏览器。换电脑、换浏览器或清理站点数据之前，请从“导出”保存 JSON 工程，再在新设备导入。",
+    "section": "faq",
+    "label": "自动保存默认只在当前浏览器。换电脑、换浏览器或清理站点数据之前，请从“导出”保存 JSON 工程",
+    "block": false
+  },
+  "faq-h2-1": {
+    "html": "现在，去把那一句唱顺。",
+    "section": "faq",
+    "label": "现在，去把那一句唱顺。",
+    "block": false
+  },
+  "faq-p-7": {
+    "html": "先听，再数，最后落字。任何自动建议都可以改，最终答案在你的耳朵里。",
+    "section": "faq",
+    "label": "先听，再数，最后落字。任何自动建议都可以改，最终答案在你的耳朵里。",
+    "block": false
+  },
+  "start-title": {
+    "html": "开始使用",
+    "section": "start",
+    "label": "开始使用 · 章节标题",
+    "block": false
+  },
+  "model-title": {
+    "html": "理解词格",
+    "section": "model",
+    "label": "理解词格 · 章节标题",
+    "block": false
+  },
+  "phoneme-title": {
+    "html": "发音格操作",
+    "section": "phoneme",
+    "label": "发音格操作 · 章节标题",
+    "block": false
+  },
+  "chinese-title": {
+    "html": "中文逐格编辑",
+    "section": "chinese",
+    "label": "中文逐格编辑 · 章节标题",
+    "block": false
+  },
+  "timeline-title": {
+    "html": "听感与时间轴",
+    "section": "timeline",
+    "label": "听感与时间轴 · 章节标题",
+    "block": false
+  },
+  "blind-title": {
+    "html": "盲听打点",
+    "section": "blind",
+    "label": "盲听打点 · 章节标题",
+    "block": false
+  },
+  "import-title": {
+    "html": "导入与导出",
+    "section": "import",
+    "label": "导入与导出 · 章节标题",
+    "block": false
+  },
+  "lab-title": {
+    "html": "实验室",
+    "section": "lab",
+    "label": "实验室 · 章节标题",
+    "block": false
+  },
+  "ai-title": {
+    "html": "AI 参谋",
+    "section": "ai",
+    "label": "AI 参谋 · 章节标题",
+    "block": false
+  },
+  "appearance-title": {
+    "html": "外观与隐私",
+    "section": "appearance",
+    "label": "外观与隐私 · 章节标题",
+    "block": false
+  },
+  "shortcuts-title": {
+    "html": "快捷键",
+    "section": "shortcuts",
+    "label": "快捷键 · 章节标题",
+    "block": false
+  },
+  "faq-title": {
+    "html": "常见问题",
+    "section": "faq",
+    "label": "常见问题 · 章节标题",
+    "block": false
+  },
+  "model-intro": {
+    "html": "整个软件只有一个核心关系：实际唱法决定基础格数，中文填词在这个基础上延长、吸收、连接或拆分。",
+    "section": "model",
+    "label": "理解词格 · 章节说明",
+    "block": false
+  },
+  "phoneme-intro": {
+    "html": "新版交互把“选择”和“修改”分开：点发音格只会选中，任何会改变格数的操作都要再按一次明确按钮。",
+    "section": "phoneme",
+    "label": "发音格操作 · 章节说明",
+    "block": false
+  },
+  "chinese-intro": {
+    "html": "一个格通常填一个中文字。延音用“—”表达，它只延长前一个字，不会多算一个发音。",
+    "section": "chinese",
+    "label": "中文逐格编辑 · 章节说明",
+    "block": false
+  },
+  "timeline-intro": {
+    "html": "把音频和时间字幕放在一起，播放到哪一句，歌词列表与整组词格就跟到哪一句。",
+    "section": "timeline",
+    "label": "听感与时间轴 · 章节说明",
+    "block": false
+  },
+  "blind-intro": {
+    "html": "不先相信自动分词，直接用耳朵记录每个落点。这个模式必须同时有歌曲音频和真正的 .lrc 文件。",
+    "section": "blind",
+    "label": "盲听打点 · 章节说明",
+    "block": false
+  },
+  "import-intro": {
+    "html": "顶部只保留一个“导入”入口。打开后再选择来源，避免按钮越来越多。",
+    "section": "import",
+    "label": "导入与导出 · 章节说明",
+    "block": false
+  },
+  "lab-intro": {
+    "html": "实验室容纳仍在验证中的辅助工具。能稳定帮助填词的先开放，其余工具保持锁定。",
+    "section": "lab",
+    "label": "实验室 · 章节说明",
+    "block": false
+  },
+  "ai-intro": {
+    "html": "AI 是查资料和打开思路的参谋，不是替你写中文填词的人。模型由用户自行配置，当前按 GLM 4.7 兼容方式连接。",
+    "section": "ai",
+    "label": "AI 参谋 · 章节说明",
+    "block": false
+  },
+  "appearance-intro": {
+    "html": "让工具适应你的眼睛，而不是让背景图压过正在编辑的歌词。",
+    "section": "appearance",
+    "label": "外观与隐私 · 章节说明",
+    "block": false
+  },
+  "shortcuts-intro": {
+    "html": "高频动作尽量不离开键盘。盲听打点中的空格只在该模式播放时生效。",
+    "section": "shortcuts",
+    "label": "快捷键 · 章节说明",
+    "block": false
+  },
+  "faq-intro": {
+    "html": "先看最常碰到的情况。仍然解决不了时，导出工程备份再反馈，最容易复现。",
+    "section": "faq",
+    "label": "常见问题 · 章节说明",
+    "block": false
+  },
+  "faq-question-1": {
+    "html": "为什么自动建议的格数和我听到的不一样？",
+    "section": "faq",
+    "label": "为什么自动建议的格数和我听到的不一样？",
+    "block": false
+  },
+  "faq-question-2": {
+    "html": "为什么 SVP 导入后几句连在一起？",
+    "section": "faq",
+    "label": "为什么 SVP 导入后几句连在一起？",
+    "block": false
+  },
+  "faq-question-3": {
+    "html": "MIDI 导入后为什么没有歌词？",
+    "section": "faq",
+    "label": "MIDI 导入后为什么没有歌词？",
+    "block": false
+  },
+  "faq-question-4": {
+    "html": "LRC 为什么不跟随滚动？",
+    "section": "faq",
+    "label": "LRC 为什么不跟随滚动？",
+    "block": false
+  },
+  "faq-question-5": {
+    "html": "延音“—”为什么不增加字数？",
+    "section": "faq",
+    "label": "延音“—”为什么不增加字数？",
+    "block": false
+  },
+  "faq-question-6": {
+    "html": "换电脑后工程去哪了？",
+    "section": "faq",
+    "label": "换电脑后工程去哪了？",
+    "block": false
+  },
+  "kind-ta": {
+    "html": "通常建议占一个中文格",
+    "section": "model",
+    "label": "普通发音 · 说明",
+    "block": false
+  },
+  "kind-kyū": {
+    "html": "默认一字，可以拖长",
+    "section": "model",
+    "label": "长音 · 说明",
+    "block": false
+  },
+  "kind-n": {
+    "html": "不单独占字，仍保留发音信息",
+    "section": "model",
+    "label": "吸收 · 说明",
+    "block": false
+  },
+  "kind-na + i": {
+    "html": "两个实际音共同对应一个中文格",
+    "section": "model",
+    "label": "连读 · 说明",
+    "block": false
+  },
+  "import-0-0": {
+    "html": "日文／英文歌词",
+    "section": "import",
+    "label": "日文／英文歌词 · 名称",
+    "block": false
+  },
+  "import-0-1": {
+    "html": "粘贴文本",
+    "section": "import",
+    "label": "日文／英文歌词 · 格式",
+    "block": false
+  },
+  "import-0-2": {
+    "html": "生成可编辑发音格；日文会显示罗马音，英文按单词与读音拆分。",
+    "section": "import",
+    "label": "日文／英文歌词 · 说明",
+    "block": false
+  },
+  "import-1-0": {
+    "html": "LRC／SRT",
+    "section": "import",
+    "label": "LRC／SRT · 名称",
+    "block": false
+  },
+  "import-1-1": {
+    "html": "时间字幕",
+    "section": "import",
+    "label": "LRC／SRT · 格式",
+    "block": false
+  },
+  "import-1-2": {
+    "html": "把歌词行挂到播放时间上，用于跟随滚动与听感校对。",
+    "section": "import",
+    "label": "LRC／SRT · 说明",
+    "block": false
+  },
+  "import-2-0": {
+    "html": "歌曲音频",
+    "section": "import",
+    "label": "歌曲音频 · 名称",
+    "block": false
+  },
+  "import-2-1": {
+    "html": "MP3 · WAV · OGG",
+    "section": "import",
+    "label": "歌曲音频 · 格式",
+    "block": false
+  },
+  "import-2-2": {
+    "html": "在浏览器本地播放、循环句段；音频不会跟随工程导出。",
+    "section": "import",
+    "label": "歌曲音频 · 说明",
+    "block": false
+  },
+  "import-3-0": {
+    "html": "Synthesizer V",
+    "section": "import",
+    "label": "Synthesizer V · 名称",
+    "block": false
+  },
+  "import-3-1": {
+    "html": "SVP · 测试中",
+    "section": "import",
+    "label": "Synthesizer V · 格式",
+    "block": false
+  },
+  "import-3-2": {
+    "html": "读取轨道、音符、歌词与时值；可在导入时重新分句。",
+    "section": "import",
+    "label": "Synthesizer V · 说明",
+    "block": false
+  },
+  "import-4-0": {
+    "html": "MIDI",
+    "section": "import",
+    "label": "MIDI · 名称",
+    "block": false
+  },
+  "import-4-1": {
+    "html": "MID · MIDI",
+    "section": "import",
+    "label": "MIDI · 格式",
+    "block": false
+  },
+  "import-4-2": {
+    "html": "选择旋律轨并试听 MIDI；无歌词的音符仍可作为节奏格。",
+    "section": "import",
+    "label": "MIDI · 说明",
+    "block": false
+  },
+  "import-5-0": {
+    "html": "VOCALOID",
+    "section": "import",
+    "label": "VOCALOID · 名称",
+    "block": false
+  },
+  "import-5-1": {
+    "html": "VSQX · VPR",
+    "section": "import",
+    "label": "VOCALOID · 格式",
+    "block": false
+  },
+  "import-5-2": {
+    "html": "适配常见歌声轨与歌词；多轨工程会先让你选目标轨。",
+    "section": "import",
+    "label": "VOCALOID · 说明",
+    "block": false
+  },
+  "import-6-0": {
+    "html": "词格工程",
+    "section": "import",
+    "label": "词格工程 · 名称",
+    "block": false
+  },
+  "import-6-1": {
+    "html": "JSON",
+    "section": "import",
+    "label": "词格工程 · 格式",
+    "block": false
+  },
+  "import-6-2": {
+    "html": "完整保存格子、中文、时间标记与设置，之后可继续编辑。",
+    "section": "import",
+    "label": "词格工程 · 说明",
+    "block": false
+  },
+  "extra-start": {
+    "html": "",
+    "section": "start",
+    "label": "开始使用 · 追加内容与图片",
+    "block": true
+  },
+  "extra-model": {
+    "html": "",
+    "section": "model",
+    "label": "理解词格 · 追加内容与图片",
+    "block": true
+  },
+  "extra-phoneme": {
+    "html": "",
+    "section": "phoneme",
+    "label": "发音格操作 · 追加内容与图片",
+    "block": true
+  },
+  "extra-chinese": {
+    "html": "",
+    "section": "chinese",
+    "label": "中文逐格编辑 · 追加内容与图片",
+    "block": true
+  },
+  "extra-timeline": {
+    "html": "",
+    "section": "timeline",
+    "label": "听感与时间轴 · 追加内容与图片",
+    "block": true
+  },
+  "extra-blind": {
+    "html": "",
+    "section": "blind",
+    "label": "盲听打点 · 追加内容与图片",
+    "block": true
+  },
+  "extra-import": {
+    "html": "",
+    "section": "import",
+    "label": "导入与导出 · 追加内容与图片",
+    "block": true
+  },
+  "extra-lab": {
+    "html": "",
+    "section": "lab",
+    "label": "实验室 · 追加内容与图片",
+    "block": true
+  },
+  "extra-ai": {
+    "html": "",
+    "section": "ai",
+    "label": "AI 参谋 · 追加内容与图片",
+    "block": true
+  },
+  "extra-appearance": {
+    "html": "",
+    "section": "appearance",
+    "label": "外观与隐私 · 追加内容与图片",
+    "block": true
+  },
+  "extra-shortcuts": {
+    "html": "",
+    "section": "shortcuts",
+    "label": "快捷键 · 追加内容与图片",
+    "block": true
+  },
+  "extra-faq": {
+    "html": "",
+    "section": "faq",
+    "label": "常见问题 · 追加内容与图片",
+    "block": true
+  },
+  "phoneme-example-1": {
+    "html": "a n ta ra ni o ku ru ho ko ro bi no u ta",
+    "section": "phoneme",
+    "label": "可复制唱法示例 1",
+    "block": false
+  },
+  "phoneme-example-2": {
+    "html": "ra ga e na i sa n da i yo kkyu u ka mi no ma ni ma ni",
+    "section": "phoneme",
+    "label": "可复制唱法示例 2",
+    "block": false
+  }
+}

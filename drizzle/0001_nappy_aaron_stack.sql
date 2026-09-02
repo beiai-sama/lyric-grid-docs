@@ -1,0 +1,1 @@
+ALTER TABLE `documents` ADD `write_token` text DEFAULT '' NOT NULL;

@@ -1,0 +1,35 @@
+import assert from 'node:assert/strict';
+
+const base='http://localhost:3000';
+const owner={Cookie:'__sites_local_auth=1',Origin:base};
+const get=async(path,headers={})=>fetch(base+path,{headers});
+let response=await get('/api/editor');assert.equal(response.status,401);
+response=await get('/api/editor',{'oai-authenticated-user-id':'forged','oai-authenticated-user-email':'seedy@sites.test'});assert.equal(response.status,401);
+response=await get('/edit',{Cookie:'__sites_local_auth=1'});assert.equal(response.status,200);
+response=await get('/api/editor',owner);assert.equal(response.status,200);
+let doc=await response.json();
+const write=(fields,action='save',revision=doc.revision,headers=owner)=>fetch(base+'/api/editor',{method:'PUT',headers:{...headers,'Content-Type':'application/json'},body:JSON.stringify({fields,action,revision})});
+response=await write({},'save',doc.revision,{...owner,Origin:'https://evil.example'});assert.equal(response.status,403);
+response=await write({'unknown':'x'});assert.equal(response.status,400);
+const marker='DOCS_EDITOR_LOCAL_TEST_'+Date.now();
+response=await write({'start-h1-1':marker});assert.equal(response.status,200);doc=await response.json();
+assert.ok(!(await (await get('/')).text()).includes(marker),'draft must not appear in reader');
+response=await write({'start-h1-1':'stale'},'save',doc.revision-1);assert.equal(response.status,409);
+assert.equal((await (await get('/api/editor',owner)).json()).fields['start-h1-1'],marker);
+const image=new File([Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aFqkAAAAASUVORK5CYII=','base64')],'test.png',{type:'image/png'});
+let form=new FormData();form.set('file',image);
+response=await fetch(base+'/api/images',{method:'POST',headers:{Origin:base},body:form});assert.equal(response.status,401);
+form=new FormData();form.set('file',new File(['<svg onload="x"></svg>'],'x.svg',{type:'image/svg+xml'}));
+response=await fetch(base+'/api/images',{method:'POST',headers:owner,body:form});assert.equal(response.status,400);
+form=new FormData();form.set('file',image);
+response=await fetch(base+'/api/images',{method:'POST',headers:owner,body:form});assert.equal(response.status,200);const uploaded=await response.json();
+assert.equal((await get(uploaded.url)).status,404,'unpublished image is private');
+assert.equal((await get(uploaded.url,owner)).status,200);
+response=await write({'start-h1-1':marker,'extra-start':`<p>Image test<img src="${uploaded.url}" onerror="alert(1)"></p>`},'publish');assert.equal(response.status,200);doc=await response.json();
+assert.ok((await (await get('/')).text()).includes(marker),'published content must appear');
+assert.equal((await get(uploaded.url)).status,200,'published image should be readable');
+assert.ok(!doc.fields['extra-start'].includes('onerror'));
+// Leave the local preview on the original wording after the test.
+response=await write({},'publish');assert.equal(response.status,200);
+assert.ok(!(await (await get('/')).text()).includes(marker));
+console.log('PASS: anonymous/forged identity, owner route, CSRF, draft isolation, publish, conflict protection, image upload and image privacy.');
