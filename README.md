@@ -1,5 +1,11 @@
 # 词格使用手册
 
+## GitHub Pages 静态版
+
+运行 `npm run build:static` 输出到 `out/`。GitHub Pages 工作流会在 main 更新后构建和部署。页面路径为 `/lyric-grid-docs/`，换仓库名称时需同步修改 `vite.static.config.ts` 中的 base。
+
+静态版提供文档阅读和 GitHub 源码编辑入口，不运行云端草稿、登录和图片上传 API。修改 content/default-fields.json 并提交后自动发布；原服务端编辑器源码保留供需要时部署。
+
 北艾sama的词格独立使用文档，包含阅读页面及可视化文档编辑器。
 
 ## 本地运行
